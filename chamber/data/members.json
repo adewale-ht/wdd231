@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Alpha Tech Ltd.",
+    "address": "12 Broad Street, Lagos",
+    "phone": "+234 801 234 5678",
+    "website": "https://alphatech.ng",
+    "image": "alpha-tech.png",
+    "membership": "gold"
+  },
+  {
+    "name": "Beta Foods",
+    "address": "45 Market Road, Lagos",
+    "phone": "+234 802 345 6789",
+    "website": "https://betafoods.ng",
+    "image": "beta-foods.png",
+    "membership": "silver"
+  },
+  {
+    "name": "Gamma Logistics",
+    "address": "88 Transport Ave, Lagos",
+    "phone": "+234 803 456 7890",
+    "website": "https://gammalogistics.ng",
+    "image": "gamma-logistics.png",
+    "membership": "member"
+  },
+  {
+    "name": "Delta Health",
+    "address": "101 Hospital Rd, Lagos",
+    "phone": "+234 804 567 8901",
+    "website": "https://deltahealth.ng",
+    "image": "delta-health.png",
+    "membership": "gold"
+  },
+  {
+    "name": "Epsilon Media",
+    "address": "23 News Lane, Lagos",
+    "phone": "+234 805 678 9012",
+    "website": "https://epsilonmedia.ng",
+    "image": "epsilon-media.png",
+    "membership": "silver"
+  },
+  {
+    "name": "Zeta Farms",
+    "address": "77 Farm Road, Lagos",
+    "phone": "+234 806 789 0123",
+    "website": "https://zetafarms.ng",
+    "image": "zeta-farms.png",
+    "membership": "member"
+  },
+  {
+    "name": "Eta Energy",
+    "address": "5 Power Street, Lagos",
+    "phone": "+234 807 890 1234",
+    "website": "https://etaenergy.ng",
+    "image": "eta-energy.png",
+    "membership": "gold"
+  }
+]

@@ -1,0 +1,9 @@
+@media (min-width: 700px) {
+  #members {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  header {
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+}

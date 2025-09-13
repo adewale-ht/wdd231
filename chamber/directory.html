@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chamber Directory for Lagos, Nigeria. Member businesses, contact info, and membership levels.">
+  <meta name="author" content="Adewale Adekunle John">
+  <title>Adewale Adekunle John | Chamber Directory | Lagos, Nigeria</title>
+  <link rel="icon" href="images/favicon.ico">
+  <meta property="og:title" content="Lagos Chamber Directory">
+  <meta property="og:description" content="Directory of member businesses in Lagos, Nigeria Chamber of Commerce.">
+  <meta property="og:image" content="images/logo.svg">
+  <meta property="og:url" content="https://adewale-ht.github.io/wdd231/chamber/directory.html">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="scripts/directory.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="images/logo.svg" alt="Lagos Chamber Logo" id="logo">
+    <span id="site-owner">Adewale Adekunle John</span>
+    <button id="hamburger" aria-label="Open navigation menu">&#9776;</button>
+  </header>
+  <nav id="main-nav">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="directory.html" aria-current="page">Directory</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Chamber Directory</h1>
+    <div id="view-toggle">
+      <button id="gridBtn">Grid View</button>
+      <button id="listBtn">List View</button>
+    </div>
+    <section id="members"></section>
+  </main>
+  <footer>
+    <div id="contact-info">
+      <p>Contact: info@lagoschamber.ng | Lagos, Nigeria</p>
+      <p>Developer: Adewale Adekunle John | WDD 231</p>
+      <p id="lastModified"></p>
+    </div>
+  </footer>
+</body>
+</html>
