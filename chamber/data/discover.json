@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Lekki Conservation Centre",
+    "address": "KM 19, Lekki-Epe Expressway, Lekki Peninsula, Lagos",
+    "description": "A large urban nature park with canopy walkways, picnic areas, and wildlife viewing.",
+    "image": "lekki-conservation.webp"
+  },
+  {
+    "title": "Nike Art Gallery",
+    "address": "No. 2, Elegushi Road, 3rd Roundabout, Epe Expressway, Lekki, Lagos",
+    "description": "One of the largest art galleries in West Africa, featuring Nigerian and African art.",
+    "image": "nike-art-gallery.webp"
+  },
+  {
+    "title": "National Museum Lagos",
+    "address": "Onikan, Lagos Island, Lagos",
+    "description": "A museum with a rich collection of Nigerian artifacts and historical exhibits.",
+    "image": "national-museum.webp"
+  },
+  {
+    "title": "Freedom Park Lagos",
+    "address": "1 Hospital Road, Lagos Island, Lagos",
+    "description": "A memorial and leisure park on the site of a former colonial prison, now hosting events and concerts.",
+    "image": "freedom-park.webp"
+  },
+  {
+    "title": "Tarkwa Bay Beach",
+    "address": "Tarkwa Bay, Lagos",
+    "description": "A sheltered beach popular for swimming, water sports, and relaxation.",
+    "image": "tarkwa-bay.webp"
+  },
+  {
+    "title": "Eko Atlantic City",
+    "address": "Victoria Island, Lagos",
+    "description": "A new coastal city being built on reclaimed land, offering modern business and residential spaces.",
+    "image": "eko-atlantic.webp"
+  },
+  {
+    "title": "Omenka Gallery",
+    "address": "24, Ikoyi Crescent, Ikoyi, Lagos",
+    "description": "A contemporary art gallery showcasing Nigerian and international artists.",
+    "image": "omenka-gallery.webp"
+  },
+  {
+    "title": "Terra Kulture",
+    "address": "1376 Tiamiyu Savage St, Victoria Island, Lagos",
+    "description": "A cultural center with art exhibitions, theater, and a restaurant serving Nigerian cuisine.",
+    "image": "terra-kulture.webp"
+  }
+]

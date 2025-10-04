@@ -42,14 +42,24 @@ nav a[aria-current="page"] {
   border: none;
   font-size: 2rem;
 }
+
+/* Discover page grid and card styles */
+.discover-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
 @media (min-width: 700px) {
   #hamburger {
     display: none;
   }
 }
+
 #view-toggle {
   margin-bottom: 1rem;
 }
+
 #view-toggle button {
   margin-right: 0.5rem;
   padding: 0.5rem 1rem;
@@ -59,14 +69,17 @@ nav a[aria-current="page"] {
   border-radius: 4px;
   cursor: pointer;
 }
+
 #view-toggle button.active {
   background: #005fa3;
 }
+
 #members {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
 }
+
 .member-card {
   background: #fff;
   border-radius: 8px;
@@ -76,6 +89,7 @@ nav a[aria-current="page"] {
   flex-direction: column;
   align-items: center;
 }
+
 .member-card img {
   width: 80px;
   height: 80px;
@@ -83,15 +97,29 @@ nav a[aria-current="page"] {
   border-radius: 50%;
   margin-bottom: 0.5rem;
 }
+
 .member-card.gold {
   border: 2px solid gold;
 }
+
+/* Assign grid areas for each card */
+.card1 { grid-area: card1; }
+.card2 { grid-area: card2; }
+.card3 { grid-area: card3; }
+.card4 { grid-area: card4; }
+.card5 { grid-area: card5; }
+.card6 { grid-area: card6; }
+.card7 { grid-area: card7; }
+.card8 { grid-area: card8; }
+
 .member-card.silver {
   border: 2px solid silver;
 }
+
 .member-card.member {
   border: 2px solid #0077cc;
 }
+
 .list-view .member-card {
   flex-direction: row;
   align-items: center;
@@ -100,12 +128,15 @@ nav a[aria-current="page"] {
   border: none;
   background: none;
 }
+
 .list-view .member-card img {
   display: none;
 }
+
 .list-view .member-card > div {
   margin-left: 1rem;
 }
+
 footer {
   background: #222;
   color: #fff;
