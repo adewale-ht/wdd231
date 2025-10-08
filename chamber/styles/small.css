@@ -143,3 +143,34 @@ footer {
   text-align: center;
   padding: 1rem 0;
 }
+
+/* Hero section styles */
+.hero {
+  position: relative;
+  text-align: center;
+}
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.hero-content {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+.cta-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  background: #f9a8d4;
+  color: #333;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
