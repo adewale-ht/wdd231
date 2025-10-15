@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Full Body HIIT",
+    "duration": "30 min",
+    "level": "Intermediate",
+    "image": "workout1.webp",
+    "description": "A high-intensity interval workout for all major muscle groups."
+  },
+  {
+    "id": 2,
+    "name": "Morning Yoga Flow",
+    "duration": "20 min",
+    "level": "Beginner",
+    "image": "workout2.webp",
+    "description": "Gentle yoga routine to start your day with energy."
+  },
+  {
+    "id": 3,
+    "name": "Cardio Blast",
+    "duration": "25 min",
+    "level": "Advanced",
+    "image": "workout3.webp",
+    "description": "Intense cardio session to boost endurance and burn calories."
+  },
+  {
+    "id": 4,
+    "name": "Strength Training Basics",
+    "duration": "40 min",
+    "level": "Beginner",
+    "image": "workout4.webp",
+    "description": "Introduction to strength training with a focus on form and technique."
+  },
+  {
+    "id": 5,
+    "name": "Core Conditioning",
+    "duration": "15 min",
+    "level": "Intermediate",
+    "image": "workout5.webp",
+    "description": "Exercises targeting the core muscles for improved stability and strength."
+  },
+  {
+    "id": 6,
+    "name": "Plyometric Power",
+    "duration": "30 min",
+    "level": "Advanced",
+    "image": "workout6.webp",
+    "description": "Explosive exercises to build power and improve athletic performance."
+  },
+  {
+    "id": 7,
+    "name": "Flexibility and Balance",
+    "duration": "35 min",
+    "level": "All Levels",
+    "image": "workout7.webp",
+    "description": "Routine focusing on enhancing flexibility and balance through stretching and controlled movements."
+  },
+  {
+    "id": 8,
+    "name": "Kettlebell Conditioning",
+    "duration": "30 min",
+    "level": "Intermediate",
+    "image": "workout8.webp",
+    "description": "Full-body workout using kettlebells to improve strength and endurance."
+  },
+  {
+    "id": 9,
+    "name": "HIIT for Beginners",
+    "duration": "20 min",
+    "level": "Beginner",
+    "image": "workout9.webp",
+    "description": "High-Intensity Interval Training workout designed for beginners."
+  },
+  {
+    "id": 10,
+    "name": "Advanced Yoga Practice",
+    "duration": "45 min",
+    "level": "Advanced",
+    "image": "workout10.webp",
+    "description": "Challenging yoga sequence to build strength, flexibility, and focus."
+  },
+  {
+    "id": 11,
+    "name": "Bodyweight Blast",
+    "duration": "25 min",
+    "level": "Intermediate",
+    "image": "workout11.webp",
+    "description": "High-intensity bodyweight exercises to build strength and endurance."
+  },
+  {
+    "id": 12,
+    "name": "Mobility Mastery",
+    "duration": "30 min",
+    "level": "All Levels",
+    "image": "workout12.webp",
+    "description": "Routine designed to improve joint mobility and overall movement quality."
+  },
+  {
+    "id": 13,
+    "name": "Barbell Strength",
+    "duration": "40 min",
+    "level": "Intermediate",
+    "image": "workout13.webp",
+    "description": "Barbell exercises focusing on major muscle groups to build strength."
+  },
+  {
+    "id": 14,
+    "name": "Cardio Kickboxing",
+    "duration": "30 min",
+    "level": "All Levels",
+    "image": "workout14.webp",
+    "description": "Kickboxing-inspired cardio workout for a full-body burn."
+  },
+  {
+    "id": 15,
+    "name": "Pilates Precision",
+    "duration": "35 min",
+    "level": "Intermediate",
+    "image": "workout15.webp",
+    "description": "Pilates workout focusing on core strength, flexibility, and body awareness."
+  },
+  {
+    "id": 16,
+    "name": "Zumba Dance Party",
+    "duration": "50 min",
+    "level": "All Levels",
+    "image": "workout16.webp",
+    "description": "Dance-based cardio workout set to energetic music for a fun fitness experience."
+  },
+  {
+    "id": 17,
+    "name": "Bootcamp Challenge",
+    "duration": "45 min",
+    "level": "Advanced",
+    "image": "workout17.webp",
+    "description": "Intense boot camp-style workout to push your limits and build strength."
+  },
+  {
+    "id": 18,
+    "name": "Aqua Aerobics",
+    "duration": "30 min",
+    "level": "All Levels",
+    "image": "workout18.webp",
+    "description": "Low-impact water aerobics workout for cardiovascular fitness and muscle toning."
+  },
+  {
+    "id": 19,
+    "name": "Cycling Endurance",
+    "duration": "60 min",
+    "level": "Intermediate",
+    "image": "workout19.webp",
+    "description": "Steady-state cycling workout to build endurance and lower body strength."
+  },
+  {
+    "id": 20,
+    "name": "Rock Climbing Workout",
+    "duration": "90 min",
+    "level": "Advanced",
+    "image": "workout20.webp",
+    "description": "Full-body workout simulating rock climbing movements for strength and endurance."
+  }
+]

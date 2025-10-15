@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthy Living & Fitness | Home</title>
+  <meta name="description" content="Promote healthy living with workouts, recipes, wellness tips, and interactive tools.">
+  <meta name="author" content="Adewale Adekunle John">
+  <link rel="icon" href="images/favicon.ico">
+  <meta property="og:title" content="Healthy Living & Fitness">
+  <meta property="og:description" content="Workouts, recipes, wellness tips, BMI calculator, and more for a healthier lifestyle.">
+  <meta property="og:image" content="images/logo.svg">
+  <meta property="og:url" content="https://adewale-ht.github.io/wdd231/final/">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script type="module" src="scripts/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="images/logo.svg" alt="Healthy Living Logo" id="logo">
+    <nav>
+      <ul id="nav-list">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="workouts.html">Workouts</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="bmi.html">BMI Calculator</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <button id="hamburger" aria-label="Open navigation menu">&#9776;</button>
+    </nav>
+  </header>
+  <main>
+    <h1>Welcome to Healthy Living & Fitness</h1>
+    <section class="hero">
+      <img src="images/hero.webp" alt="Healthy Lifestyle" loading="lazy" class="hero-img">
+      <div class="hero-content">
+        <p>Discover workouts, recipes, wellness tips, and tools to help you live your healthiest life.</p>
+        <a href="workouts.html" class="cta-btn">Start Your Fitness Journey</a>
+      </div>
+    </section>
+    <section id="featured-workouts"></section>
+    <section id="featured-recipes"></section>
+    <section id="wellness-tips"></section>
+    <dialog id="motivation-modal">
+      <h2>Stay Motivated!</h2>
+      <p>“The secret of getting ahead is getting started.” – Mark Twain</p>
+      <button class="close-modal" data-modal="motivation-modal">Close</button>
+    </dialog>
+  </main>
+  <footer>
+    <p>&copy; <span id="year"></span> Adewale Adekunle John, Lagos, Nigeria</p>
+    <p>
+      <a href="attributions.html">Attributions</a> |
+      <a href="https://your-video-link">Project Video</a>
+    </p>
+    <p id="lastModified"></p>
+  </footer>
+  <script src="scripts/date.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  background: #f7fafc;
+  color: #222;
+}
+header, footer {
+  background: #2d3748;
+  color: #fff;
+  padding: 1rem;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  flex-direction: column;
+}
+nav ul.open {
+  display: flex;
+}
+nav button#hamburger {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.workout-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin: 1rem 0;
+  padding: 1rem;
+}
+@media (min-width: 700px) {
+  nav ul {
+    display: flex !important;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  nav button#hamburger {
+    display: none;
+  }
+  .workout-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
