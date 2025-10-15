@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthy Living & Fitness | Recipes</title>
+  <meta name="description" content="Explore healthy recipes for balanced nutrition.">
+  <meta name="author" content="Adewale Adekunle John">
+  <link rel="icon" href="images/favicon.ico">
+  <meta property="og:title" content="Healthy Living & Fitness Recipes">
+  <meta property="og:description" content="Healthy recipes for breakfast, lunch, dinner, and snacks.">
+  <meta property="og:image" content="images/logo.svg">
+  <meta property="og:url" content="https://adewale-ht.github.io/wdd231/final/recipes.html">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script type="module" src="scripts/recipes.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="images/logo.svg" alt="Healthy Living Logo" id="logo">
+    <nav>
+      <ul id="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html" aria-current="page">Recipes</a></li>
+        <li><a href="bmi.html">BMI Calculator</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <button id="hamburger" aria-label="Open navigation menu">&#9776;</button>
+    </nav>
+  </header>
+  <main>
+    <h1>Healthy Recipes</h1>
+    <section id="recipe-list" class="recipe-grid"></section>
+    <dialog id="recipe-modal">
+      <!-- Modal content will be injected by JS -->
+      <button class="close-modal" data-modal="recipe-modal">Close</button>
+    </dialog>
+  </main>
+  <footer>
+    <p>&copy; <span id="year"></span> Adewale Adekunle John, Lagos, Nigeria</p>
+    <p>
+      <a href="attributions.html">Attributions</a> |
+      <a href="https://your-video-link">Project Video</a>
+    </p>
+    <p id="lastModified"></p>
+  </footer>
+  <script src="scripts/date.js" defer></script>
+</body>
+</html>

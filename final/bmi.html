@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthy Living & Fitness | BMI Calculator</title>
+  <meta name="description" content="Calculate your Body Mass Index (BMI) and track your fitness progress.">
+  <meta name="author" content="Adewale Adekunle John">
+  <link rel="icon" href="images/favicon.ico">
+  <meta property="og:title" content="Healthy Living & Fitness BMI Calculator">
+  <meta property="og:description" content="Interactive BMI calculator for healthy living.">
+  <meta property="og:image" content="images/logo.svg">
+  <meta property="og:url" content="https://adewale-ht.github.io/wdd231/final/bmi.html">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script type="module" src="scripts/bmi.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="images/logo.svg" alt="Healthy Living Logo" id="logo">
+    <nav>
+      <ul id="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="bmi.html" aria-current="page">BMI Calculator</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <button id="hamburger" aria-label="Open navigation menu">&#9776;</button>
+    </nav>
+  </header>
+  <main>
+    <h1>BMI Calculator</h1>
+    <form id="bmi-form" autocomplete="on">
+      <label>
+        Height (cm):
+        <input type="number" name="height" required min="50" max="250">
+      </label>
+      <label>
+        Weight (kg):
+        <input type="number" name="weight" required min="20" max="300">
+      </label>
+      <input type="submit" value="Calculate BMI">
+    </form>
+    <section id="bmi-result"></section>
+  </main>
+  <footer>
+    <p>&copy; <span id="year"></span> Adewale Adekunle John, Lagos, Nigeria</p>
+    <p>
+      <a href="attributions.html">Attributions</a> |
+      <a href="https://your-video-link">Project Video</a>
+    </p>
+    <p id="lastModified"></p>
+  </footer>
+  <script src="scripts/date.js" defer></script>
+</body>
+</html>

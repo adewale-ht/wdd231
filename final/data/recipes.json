@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "name": "Avocado Toast",
+    "type": "Breakfast",
+    "calories": 250,
+    "image": "avocado_toast.webp",
+    "description": "Whole grain toast topped with smashed avocado, salt, pepper, and a drizzle of olive oil."
+  },
+  {
+    "id": 2,
+    "name": "Grilled Chicken Salad",
+    "type": "Lunch",
+    "calories": 350,
+    "image": "grilled_chicken_salad.webp",
+    "description": "Grilled chicken breast served over mixed greens, cherry tomatoes, cucumbers, and vinaigrette."
+  }
+ 
+]
